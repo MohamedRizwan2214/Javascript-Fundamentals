@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+  margin: 200px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  cursor: grab;
+}
+li.dragging {
+  opacity: 0.5;
+  background: #0835d7;
+}
