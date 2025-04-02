@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Task 4</title>
+     <link rel="stylesheet" href="./styles.css" />
+   </head>
+ 
+   <body>
+     <div class="container">
+       <div class="search-bar">
+         <input
+           type="text"
+           id="city"
+           placeholder="Enter city name"
+           spellcheck="false"
+         />
+         <button onclick="getWeather()">Get Weather</button>
+       </div>
+       <div class="weather" id="weather">
+         <h1 class="temp" id="temp">22 deg C</h1>
+         <h2 class="cityDetails" id="cityDetails">NewYork</h2>
+         <div class="details">
+           <div class="col">
+             <p class="humidity" id="humidity">50%</p>
+             <p>Humidity</p>
+           </div>
+           <div class="col">
+             <p class="windspeed" id="wind">50 km/hr</p>
+             <p>Windspeed</p>
+           </div>
+           <div class="col">
+             <p class="pressure" id="pressure">50 C</p>
+             <p>Pressure</p>
+           </div>
+         </div>
+       </div>
+     </div>
+ 
+     <script src="./main.js"></script>
+   </body>
+ </html>
