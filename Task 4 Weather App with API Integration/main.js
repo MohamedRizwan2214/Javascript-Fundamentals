@@ -2,7 +2,7 @@
 
 // dotenv.config();
 const city = document.getElementById("city");
-const apiKey ="b00ad96ef3951c1330c4268668bda875";
+const apiKey =process.env.API_KEY;
 
 async function fetchWeatherData(apiURL) {
   try {
