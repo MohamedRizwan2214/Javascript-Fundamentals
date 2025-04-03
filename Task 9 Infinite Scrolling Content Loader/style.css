@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#content {
+  max-width: 600px;
+  margin: auto;
+}
+.post {
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+#loader {
+  display: none;
+  font-weight: bold;
+  margin: 20px 0;
+}
