@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 7</title>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+
+  <body>
+    <div class="msger">
+      <header class="msg-head">Chat Application</header>
+      <div class="chat" id="chat">
+        <div class="bot-msg">
+          <div class="msg-info">
+            <span class="msg-name">bot</span>
+            <span class="msg-time">5:15 PM</span>
+            <div class="msg-text">THis is bot side</div>
+          </div>
+        </div>
+        <div class="user-msg">
+          <div class="msg-info">
+            <span class="msg-name">user</span>
+            <span class="msg-time">5:15 PM</span>
+            <div class="msg-text">This is user side</div>
+          </div>
+        </div>
+      </div>
+      <div class="msg-input">
+        <input type="text" id="msg-input" placeholder="Type a message..." />
+        <button type="submit" onclick="sendMessage()" class="msg-send-btn">
+          send
+        </button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
