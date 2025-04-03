@@ -1,8 +1,9 @@
-// const dotenv = require("dotenv");
-
-// dotenv.config();
 const city = document.getElementById("city");
-const apiKey =process.env.API_KEY;
+const dotenv = require("dotenv");
+
+dotenv.config();
+console.log(process.env.API_KEY); // Replace with your OpenWeatherMap API key
+// const apiKey = "b00ad96ef3951c1330c4268668bda875";
 
 async function fetchWeatherData(apiURL) {
   try {
