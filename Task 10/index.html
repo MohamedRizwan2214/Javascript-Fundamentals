@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 10</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <header>E-Commerce</header>
+      <button id="view-cart" class="cart">Cart (<span id="cart-count">0</span>)</button>
+    </div>
+    <div id="cart" class="hidden">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items"></div>
+        <h3>Total: Rs.<span id="total-price">0.00</span></h3>
+        <button id="checkout">Checkout</button>
+        <button id="close-cart">Close</button>
+    </div>
+    <main>
+
+      <div class="search-bar">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search for products..."
+          spellcheck="false"
+        />
+        <button id="search" >Search</button>
+      </div>
+      <div class="category" id="category">
+        <!-- <ul>
+          <li>
+            <label>
+              <input type="checkbox" value="electronics" /> Electronics
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" value="fashion" /> Fashion
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" value="home-appliances" /> Home Appliances
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" value="books" /> Books
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" value="toys" /> Toys
+            </label>
+          </li>
+        </ul> -->
+      </div>
+      <div class="container" id="product-list">
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?cs=srgb&dl=pexels-craigmdennis-205421.jpg&fm=jpg"
+            alt="Card 1"
+          />
+
+          <h1>Laptop</h1>
+          <p>3000$ </p>
+          <button class="cart-button" >Add To cart</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://ampleonline.co.in/cdn/shop/files/iPhone_15_Black_PDP_Image_Position-1__en-IN_b39e091d-09e4-4771-b536-fda5114a89af.jpg?v=1713250570&width=600"
+            alt="Card 1"
+          />
+          <h1>Card 2</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+            purus ut felis ultricies aliquam. Nullam nec purus ut felis
+            ultricies aliquam.
+          </p>
+          <button class="cart-button" >Add To cart</button>
+
+        </div>
+        <div class="card">
+          <img src="./image.png" alt="Card 1" />
+
+          <h1>Card 3</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+            purus ut felis ultricies aliquam. Nullam nec purus ut felis
+            ultricies aliquam.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./image.png" alt="Card 1" />
+
+          <h1>Card 4</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+            purus ut felis ultricies aliquam. Nullam nec purus ut felis
+            ultricies aliquam.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script src="./main.js"  type="module"></script>
+  </body>
+</html>
