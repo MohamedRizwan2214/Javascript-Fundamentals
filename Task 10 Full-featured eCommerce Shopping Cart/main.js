@@ -73,7 +73,7 @@ function updateCart() {
     cartItems.appendChild(cartItem);
   });
   totalPrice.innerText = total.toFixed(2);
-  cartCount.innerText = cart.reduce((sum, item) => sum + item.quantity, 11);
+  cartCount.innerText = cart.reduce((sum, item) => sum + item.quantity, 0);
 
   localStorage.setItem("cart", JSON.stringify(cart));
 }
