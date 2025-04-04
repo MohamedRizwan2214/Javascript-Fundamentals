@@ -8,11 +8,11 @@ This project involves building a comprehensive eCommerce simulation that include
 
 ## Demonstration
 
-<video controls src="Recording 2025-04-04 152000.mp4" title="Responsive Design Demo"></video>
+![alt text](Recording2025-04-04152000-ezgif.com-video-to-gif-converter.gif)
 
 ### Responsive Design
 
-<video controls src="20250404-0957-49.9941328.mp4" title="Shopping Cart Demo"></video>
+![alt text](20250404-0957-49.9941328-ezgif.com-video-to-gif-converter.gif)
 
 ---
 
